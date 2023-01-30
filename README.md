@@ -1,2 +1,3 @@
 # Rasa_project
-Rasa project for NLP for Good School
+
+The Rasa project (NLP for Good: tune your bot from scratch school)
