@@ -1,0 +1,17 @@
+version: "3.1"
+
+nlu:
+- intent: cancel_account
+  examples: |
+    - I need you to delete my account now.
+    - how do i cancel my account
+    - Your service is bad.  Close my account.
+    - I want to shut down my account as soon as possible.
+    - I'd like my account to be deleted. I'm not satisfied with the service you provide.
+    - I would like to terminate my account immediately
+    - unhappy with service need to delete account
+    - Can you please disable my current account.
+    - Explain me how to end my account I don't need it anymore
+    - why the heck is your service so bad? Cancel my account!
+    - I no longer want to keep this account
+    - Remove this account I am sick of your terrible service!

@@ -1,0 +1,234 @@
+[
+  {
+    "text": "What about my children?",
+    "intent": "account_age_limit",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.9609182476997375
+    }
+  },
+  {
+    "text": "hello ive been locked outa my account i have reset my password an it still wouldnt work",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "account_login_password",
+      "confidence": 0.6234202980995178
+    }
+  },
+  {
+    "text": "i am lockedout of my account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.8352785706520081
+    }
+  },
+  {
+    "text": "can't login my account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.5164662599563599
+    }
+  },
+  {
+    "text": "how come a hold was placed on my 401k account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9999765157699585
+    }
+  },
+  {
+    "text": "Forgot the pin can't log in to my account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "account_login_password",
+      "confidence": 0.6649284958839417
+    }
+  },
+  {
+    "text": "Hello I just fixed this on the third now account suspended need fixed immediately please",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.7936204075813293
+    }
+  },
+  {
+    "text": "I am unable to login into my account.. my email address is wrong and I am not receiving the verification code",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "account_login_password",
+      "confidence": 0.913665235042572
+    }
+  },
+  {
+    "text": "who can i talk to right away about the current freeze on my account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9879313111305237
+    }
+  },
+  {
+    "text": "I'm locked out of my account as I can't remember my code, what do I do now?",
+    "intent": "account_login_password",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.5564989447593689
+    }
+  },
+  {
+    "text": "Account is locked. Need to change my password so I can update my card info",
+    "intent": "account_login_password",
+    "intent_prediction": {
+      "name": "account_edit_personal_details",
+      "confidence": 0.9747477769851685
+    }
+  },
+  {
+    "text": "Please delete my account and personal information.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "account_edit_personal_details",
+      "confidence": 0.8083868622779846
+    }
+  },
+  {
+    "text": "I want to deactivate my account.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9893795847892761
+    }
+  },
+  {
+    "text": "I want to inactivate my account.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9874665141105652
+    }
+  },
+  {
+    "text": "What's the process for terminating an account?",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "account_age_limit",
+      "confidence": 0.9160094261169434
+    }
+  },
+  {
+    "text": "make my account go away",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9996498823165894
+    }
+  },
+  {
+    "text": "How do I deactivate my account?",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.5790765881538391
+    }
+  },
+  {
+    "text": "Delete all of my account information and my account right now.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9855281710624695
+    }
+  },
+  {
+    "text": "Hello I want my account locked",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.8011073470115662
+    }
+  },
+  {
+    "text": "i need you to block my chase account immediately",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.9466162323951721
+    }
+  },
+  {
+    "text": "add a block to my capital one bank account so it cannot be used any more",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.931702733039856
+    }
+  },
+  {
+    "text": "pause my account",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.6925345063209534
+    }
+  },
+  {
+    "text": "do n't let payments go through using my bank account",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.9932228326797485
+    }
+  },
+  {
+    "text": "halt all new transactions on my savings account.",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.9197053909301758
+    }
+  },
+  {
+    "text": "Changed details is essential, what steps do I take to do so?",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.819543719291687
+    }
+  },
+  {
+    "text": "my identity hasn't been verified and i can't edit my details, what's next",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.9999363422393799
+    }
+  },
+  {
+    "text": "Do you need my birthdate?",
+    "intent": "identity_verification",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.65346759557724
+    }
+  },
+  {
+    "text": "Why on earth do you need so much personal id info from me?",
+    "intent": "identity_verification",
+    "intent_prediction": {
+      "name": "account_edit_personal_details",
+      "confidence": 0.7783743143081665
+    }
+  },
+  {
+    "text": "Do you need to know my first and last name?",
+    "intent": "identity_verification",
+    "intent_prediction": {
+      "name": "account_edit_personal_details",
+      "confidence": 0.8580203056335449
+    }
+  }
+]

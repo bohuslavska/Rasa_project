@@ -1,91 +1,685 @@
 version: "3.1"
 
 nlu:
-- intent: greet
+- intent: account_age_limit
   examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - What is the age requirement?
+    - My son has just turned 13, is he old enough for an account?
+    - How do I open an account for my children?
+    - How old do you have to be?
+    - Do you have a limit for someone's age?
+    - Is there an age limit to get an account?
+    - Can I start an account for my kids?
+    - How old do my kids have to be use this?
+    - How do I set up an account for my children?
+    - How old can one use your service?
+    - What age do you have to be?
+    - How old do you have to be to open an account?
+    - Do you have any accounts for children ?
+    - I need to set up an account for my daughter, how would I do that?
+    - How old do my kids need to be to open an account?
+    - Is it possible for me to set up separate accounts for my kids?
+    - Can my children have an account?
+    - Can my children open an account?
+    - Do you guys have any age restrictions?
+    - How old do I need to be?
+    - What are age requirements for opening an account?
+    - How old do you need to be to have an account?
+    - Do you have an age limit?
+    - At what age can I open an account?
+    - May I get an account for my daughter?
+    - What are the requirements to open an account for a minor?
+    - We want to start a college fund for my daughter.
+    - Whats the minimum age to have an account
+    - I have young kids. Can they use this service?
+    - Hold old do my kids have to be to use the service?
+    - What is the minimum age required to open an account with your service?
+    - How can I open an account for my children?
+    - Would it be possible to open up an account for children?
+    - Is my daughter eligible to open an account?
+    - what is the age limit for opening a new account
+    - What would the age limit be?
+    - Do you have an age requirement when opening an account with your service?
+    - How old do you need to be to open an account?
+    - Can my children get an account?
+    - I'd like to open an account for my kids can I do that?
+    - Is there any age limit?
+    - As my kids get older are they able to get set up with their own accounts?
+    - How old must I be to open an account?
+    - What is needed for my daughter to open an account?
+    - I would like to get an account for my child.
+    - Would I be able to open an account for my daughter?
+    - Can I open an account for my offspring?
+    - DO I have to be 18 to open an account?
+    - At what age can a person open an account?
+    - Do you offer account services for children and teens?
+    - Can my teenager have an account?
+    - I want to open an account for my child.
+    - Is there an age limit to when my child can use these services?
+    - Could I open an account for children?
+    - What is the minimum age limit?
+    - Is there an age limit to open an account
+    - I am 16 and just started working at McDonalds can I deposit my checks at your bank?
+    - What are the age limits for your service?
+    - Am I allowed to get an account for my daughter?
+    - Can my 8 year old grandson open an account at the bank?
+    - Is there a certain age I need to be?
+    - How old do my kids need to be to use your service?
+    - Is my child too young to sign up?
+    - How old does one need to be?
+    - Is there a limit for age?
+    - Can I get an account for my daughter?
+    - Is there a minimum age for having an account?
+    - What is the process for setting up and account for my child?
+    - Can I open an account for my children?
+    - What is the age limit?
+    - Am I able to open an account for my children?
+    - What is the age limit for an account?
+    - How many years old do I have to be?
+    - From which age can my kids use your service?
+    - If I want to get an account for my daughter, can I do that?
+    - My daughter needs to open account.
+    - What about my children?
+    - Would I be able to get an account for my child?
+    - I'd like to open an account for my children. How can I do that?
+    - Do you have to be 18 to make an account?
+    - Do you have any age limit?
+    - What is the appropriate age for my child to be able to open an account?
+    - I have kids and I'm curious at what age could they start to use your service.
+    - Can I make an account for my daughter?
+    - What is your age limit?
 
-- intent: goodbye
+- intent: account_blocked
   examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+    - why am i seeing a hold on my charles schwab account
+    - can't access my account and it won't send me a email reset
+    - help me please , my account is blocked
+    - Could you please advise why my account has been suspended?
+    - why does my visa account have a hold on it
+    - figure out why there is a block on my account please
+    - why is there a hold on my american saving bank account
+    - hello ive been locked outa my account i have reset my password an it still wouldnt work
+    - Hello i can't log into my account and now its locked for 24hrs
+    - For some reason my account logged out and locked me out while I was talking to customer service
+    - Hi- It seems my payment didn’t go thru and I cannot log into my account or call to find out what is going on….
+    - why is my account on hold?
+    - do you know why i ca n't log into my bank account
+    - find out the reason why am i locked out of my bank account
+    - Why does it say my account is suspended
+    - Hi there, I can't login into my account
+    - why am i locked out of my bank account
+    - Hello, my account is currently suspended
+    - hi my account wsas suspended
+    - did i do something to get my bank account frozen
+    - i am lockedout of my account
+    - Hi! So my account is currently suspended could you help me get it gping
+    - why is my account blocked
+    - Hello. I am unable to log in into my account
+    - can i talk to someone about why there is a hold on my checking account
+    - Can you tell me why I have two authorization holds on my account
+    - account locked
+    - can you tell me why is my bank account frozen
+    - i am very confused about why or how my bank would lock me out of my account
+    - what 's with the block on my bank account
+    - Hi im locked out of my account is there anyway you can log me in?
+    - why cannot i take any money out from my bank account
+    - Account suspended, need help
+    - can't login my account
+    - Hello. I am locked out of my online account
+    - Why is my account tempo locked?
+    - why does my credit union account have a hold on it
+    - Why is my account suspended when I was told it was all set
+    - can you tell me why my bank account is frozen
+    - i am unable to complete my order , why could there be a hold on my wells fargo account
+    - what is the reason i am locked out of my bank account
+    - can you find the reason for the block on my account
+    - find out for me why is my bank account frozen
+    - Hello, I can't log in to my account
+    - hi my account was suspended
+    - how come a hold was placed on my 401k account
+    - why is there a hold on my capital one checking account
+    - what was the reason my bank account was frozen
+    - how come i am being denied access to my bank account
+    - for what reason is my account blocked
+    - hey my account is suspended but I was looking to cancel some things off my account
+    - Can't log into my online account
+    - WHY IS MY ACCOUNT SAY SUSPENDED BUT I JUST SPOKE WITH SOMEONE ABOUT THIS ISSUE ACURRING
+    - Help un suspended my account
+    - Can you check if my account is still suspended ?
+    - Do i have my account suspended
+    - can you find out what triggered a hold on my bank account
+    - what would cause me to be locked out of my bank account
+    - I am unable to log into my account
+    - Account suspended
+    - Account blocked
+    - Hey my account been suspended can you restore it back ?
+    - Every time I logged into my account and it gave me my old account that was suspended
+    - Hello I’m trying to I fix our bill again and not our account is suspended
+    - Hi why is my account suspended
+    - i am nost sure why my account is blocked
+    - Hi I am unable to log into my account
+    - what 's the reason for a hold on my wells fargo account
+    - why are the funds in my bank account frozen
+    - Hello, I noticed that my account was suspended
+    - why can't i access my bank account
+    - what 's the deal with my bank account being locked
+    - why do n't i have access to my bank account
+    - Forgot the pin can't log in to my account
+    - check for why is my bank account frozen
+    - Good morning was wondering if my account is suspended
+    - i am confused because my account seems to have been blocked for no reason
+    - was my bank account frozen for a specific reason
+    - can you explain why there is a hold on my savings account
+    - help , my account is blocked
+    - Hello. My account has been suspended and I’m not sure why
+    - i am very confused about the block that seems to have been placed on my account why is it there
+    - do you know why the bank put a hold on my joint checking account
+    - Why is my account locked
+    - why am i seeing a hold on my boa account
+    - Hello I just fixed this on the third now account suspended need fixed immediately please
+    - Hello why was my account suspended
+    - why ca n't i get into my account
+    - I am unable to login into my account.. my email address is wrong and I am not receiving the verification code
+    - Good morning I’m trying to login to my account but I’m locked out due to security reasons anyways to unlock it
+    - Hi, im trying to pay my bill but it says my account is suspended
+    - who can i talk to right away about the current freeze on my account
+    - what would cause my bank account to be frozen
+    - How to activate suspended account?
+    - why is n't it letting me into my bank account
+    - why did my bank account freeze
+    - can you explain to me why my bank account might be frozen
+    - could you please tell me , my wells fargo account , is there a hold and why
+    - Why is my account still suspended if I paid the minimal amount
+    - Hi good afternoon my account got locked from logging in
+    - why is my bank account blocking me
+    - do you know why my account appears to be blocked
+    - Hello is my account suspended
+    - Hello I have my account suspended , I was wondering if I can get extra time to make a payment
+    - Hi, I’m locked out of my account
+    - what is the reason for frozen status on my bank account
+    - why'd they put a freeze on my bank account
+    - Hi is my account suspended?
 
-- intent: affirm
+- intent: account_login_password
   examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - passcode retrieval
+    - I don't remember my passcode?
+    - I can't remember my app code, can you reset it?
+    - I am unaware of what my password is.
+    - Lost password
+    - My passcode is not being accepted
+    - I'm locked out of my account as I can't remember my code, what do I do now?
+    - What do I do if I forgot my passcode?
+    - I cannot remember my passcode.
+    - I seem to of forgotten my passcode.
+    - I've forgotten my passcode. Can I reset?
+    - I forgot the passcode on my app.
+    - I need to reset my passcode. Where do I go to do that?
+    - I need a new login code
+    - I happened to forget my password
+    - Account is locked. Need to change my password so I can update my card info
+    - Is there a way to reset the passcode?
+    - I can't enter my passcode.
+    - I've completely forgot the code to get into the app.
+    - I lost the code and can not get into the app. Help!
+    - My passcode was denied.
+    - Why doesn't my passcode work?
+    - I don't have a password.
+    - I forgot my password to get into the app!
+    - I am entering my passcode but getting an error.
+    - For some reason I forgot the passcode I have.
+    - Are there directions to get a new passcode if I forgot mine?
+    - Can someone please help assist me by explaining to me why my pass-code is not working?
+    - I can't get into the app with the passcode.
+    - Can my password be reset if I do not have it?
+    - Can I reset the passcode?
+    - The app passcode has completely slipped my mind.
+    - Can you lookup my password?
+    - What is my password?
+    - I would like to better understand why my pass-code is not working.
+    - I've forgotten my app passcode completely.
+    - Help me! I don't know what my password is.
+    - How do I change my passcode?
+    - Help! I forgot my password.
+    - What do I do if I can't access my passcode?
+    - I lost my passcode.
+    - My passcode won't work.
+    - How can I reset my passcode?
+    - What should I do if I don't know my password?
+    - How can I reset the passcode if I need to do that?
+    - how to recover my passcode
+    - I used to know my password, but not anymore.
+    - I don't have my passcode to access the app.
+    - Where do I go to reset the passcode?
+    - How do I reset my password?
+    - Can you help me reset my passcode? I forgot it.
+    - I don't know my password anymore.
+    - I can't log into my account because I lost my password
+    - Can you tell me my code to get into the app?
+    - I can't remember my passcode.
+    - I can't find my code
+    - I can't recall my password.
+    - What are the steps to reset my passcode?
+    - How can i reset my passcode ?
+    - What should I do if my passcode won't work?
+    - I don't remember my password
+    - I think my passcode was changed
+    - I cannot remember my passcode, is there a way to retrieve it?
+    - Where do I go to reset my passcode?
+    - I can't login with this passocde
+    - My password doesn't work.
+    - I forgot my code
+    - Instruct me how to reset the passcode.
+    - I don't know the code for the app.
+    - I forgot my passcode. Now what?
+    - Disaster, I've totally forgotten my passcode, can you help me?
+    - I have forgotten my passcode
+    - How can I go about resetting my passcode?
+    - Please help me. I don't know my code to get into the app.
+    - How do I reset my passcode?
+    - Need a new passcode.
+    - Can someone help with my passcode?
+    - I thought I knew my password but I guess I was wrong, what can I do now?
+    - I happened to forget my passcode
+    - I forgot the code I need to get into the app.
+    - What can I do if my passcode won't work?
+    - Not sure what my password is.
+    - I can't remember what my password is
+    - Hi. I forgot my password and am locked out of my account
 
-- intent: deny
+- intent: cancel_account
   examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - I need to delete my account, please.
+    - if im not using my account should i close it or just let it sit
+    - Help me terminate and close my account.
+    - I would like to cancel my account.
+    - I am very dissatisfied with the services that you are providing.  I want to cancel my account.
+    - Can you close my account please?
+    - I'm not happy, I want to close my account.
+    - I am trying to delete my account.
+    - Please delete my account and personal information.
+    - Can you delete the account?
+    - How to I close my account?
+    - Hi my account was canceled without any formal cancellation
+    - I am not happy with your company. Please delete my account asap.
+    - How do I delete an account?
+    - How can I close my account, I don't want it.
+    - This place has been too much work so I'd just like to close out my account & be done.
+    - I want to deactivate my account.
+    - I want to cancel my account.
+    - I need to terminate my account immediately.
+    - I want to inactivate my account.
+    - I would like to invalidate my account.  I am very disappointed with your services.
+    - I want to end my account
+    - What are the steps to finishing up with this account?
+    - I would like to terminate my account.
+    - I would like to delete my account now, please.
+    - How do I delete my account? I am dissatisfied with the service.
+    - Help me delete my account.  I am not satisfied with the service.
+    - How can I close my account?
+    - Are you able to delete my account?
+    - The service here is horrible, I want to delete my account.
+    - I am upset with your service.  Please delete my account.
+    - I am looking to delete my account. I'm not happy with the service provided by you.
+    - Is it possible to delete the account?
+    - I need to terminate my account.
+    - How do I close my account?
+    - I need you to delete my account right now.
+    - I want to close my account now.
+    - I want to terminate my account
+    - How can I delete my account?
+    - Please help me delete this account.
+    - I want to close my account. The service you provide is unsatisfactory to me.
+    - What steps do I need to do to delete my account?
+    - I don't like the services, please close my account
+    - What's the process for terminating an account?
+    - I am not satisfied with your service.  Close my account.
+    - Tell me how to delete my account.
+    - Delete my account now please.
+    - I no longer want this account, what should I do?
+    - This company is bad, delete my account now.
+    - I'm dissatisfied with the service and would like to terminate the account.
+    - Help me close my account.
+    - I'd like to delete my account.
+    - I hate this company! Can you delete my account?
+    - please delete account
+    - How do I discontinue my account?
+    - What do I do to close my account?
+    - I would like to delete my account. I'm not happy with the service you're providing
+    - I want to delete my account.
+    - I am not happy with your service and request that my account be terminated!
+    - for god sake, just delete my account i am sick of this
+    - Your company is lame. Shut down all my account services right now.
+    - I need to close my account as soon as possible.
+    - make my account go away
+    - How do I deactivate my account?
+    - I'm not happy with service and would like to delete this account.
+    - Remove my account immediately.
+    - I am dissatisfied, I would like to close my account.
+    - I am asking to end my account.
+    - i'm not satisfied with the services and no longer want to be a customer
+    - Delete all of my account information and my account right now.
+    - This is terrible, i want to delete my account
+    - I would like to close my account, as I'm not happy.
+    - I don't want this account anymore, how do I delete it?
+    - Please delete my account immediately.
+    - The company is no good, please terminate my account.
+    - I am not satisfied with your company and wish to delete all accounts immediately.
+    - How do I shut down my account and get out of this company?
+    - how to delete account, not happy
+    - I need to close my account.  Your company is terrible!
+    - How do I terminate my account.
+    - I want to delete my account. How do I do this?
+    - I'm not satisfied with the services that you are providing.  I would like to end my services and delete my account.
+    - I want to close my account due to poor customer service.
+    - I need to delete my account.
+    - How do I close my account, since I'm dissatisfied?
+    - Where do I go to terminate my account?
+    - How do I delete my account now
+    - Please delete my account now.
+    - I am not satisfied with your company.  Close my account.
+    - terminate my account please
+    - cancel my account
+    - Delete my account please. Now!
+    - I want to close my account & I will never do business with you again.
+    - shut down my account
+    - close out my account
 
-- intent: mood_great
+- intent: freeze_account
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - block my citibank account right away
+    - I want to stop my account
+    - please block my chase account right away
+    - can you put a stop on my account
+    - Hello I want my account locked
+    - turn off my bank account
+    - i 'd like a stop placed on my bank account
+    - put a block on my amalgamated bank account right now
+    - i would appreciate it if you put a stop on my bank account
+    - put a hold on my chase account right away please
+    - plase hold my account for now
+    - help me freeze my bank account , please
+    - i want you to immediatly block any further activity on my bb t bank account
+    - i need to put a freeze on my banking account
+    - i need you to place a stop on my bank account , thank you
+    - stop payments from my bank
+    - block my monkey market right now
+    - block my chase account asap
+    - i would like my account frozen
+    - i need you to freeze my account
+    - put a hold on my bank account
+    - i need you to block my mutualone account now
+    - put a hold on my bank account please
+    - place a hold on my bank account
+    - please ask the bank to freeze my account
+    - freeze my account
+    - i am going to need a block put on my chase account right away
+    - could you put a stop on my bank account
+    - Freeze account
+    - could you freeze my account , please
+    - put a hault on my savings account
+    - i need you to block my chase account immediately
+    - i need a stop placed on my bank account please
+    - could you freeze my account now
+    - can you put a stop on my bank account now
+    - can you put a stop on my bank account , please
+    - please make sure my account is frozen
+    - i need to hold off on my account
+    - can you please put a block on my chase account quickly
+    - add a block to my capital one bank account so it cannot be used any more
+    - can i freeze my bank account
+    - can you put a block on my chase account right away
+    - i need to freeze my bank account
+    - freeze my account immediately
+    - put a stop on my deposit account
+    - pause my account
+    - please make my account a frozen one
+    - can you please freeze my bank account
+    - i would love it if you could put a stop on my bank account
+    - can you please put a stop on my bank account
+    - would you please put a block on my chase account right away
+    - turn off my account
+    - please put a block on my td ameritrade account now
+    - i really want my account frozen
+    - please put a block on my wells fargo account
+    - how can i stop transactions on my account
+    - i 'd like my account frozen
+    - can you block my chase account right away please
+    - please set my account as frozen
+    - do n't let payments go through using my bank account
+    - can you notify the bank to put a stop on my account
+    - please pause my banking actions
+    - put a freeze on my bank account
+    - please do a stop on my bank account
+    - please freeze my account
+    - do you mind putting a stop on my bank account
+    - could you put a stop on my bank account , please
+    - please put a stop on my back account
+    - i 'd like to put a freeze on my bank account
+    - could you freeze my account
+    - pause any activity on my back account
+    - i want my bank account frozen
+    - put a block on my chase account right away
+    - i would like a block put on my chase account asap
+    - can you put a stop on my bank account
+    - i 'd like a block on my charles schwab account immediately
+    - stop any future processing on my savings account
+    - place a stop on my main account for me please
+    - can you freeze my account
+    - no payments on my bank account
+    - halt all new transactions on my savings account.
 
-- intent: mood_unhappy
+- intent: account_edit_personal_details
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - I would like to alter my personal details.
+    - My last name has changed and I need to update my account details.
+    - How do I change my name?
+    - Is there a way to modify my details?
+    - Talk me through modifying my details.
+    - My marital status has change, I got to correct my name to reflect that.
+    - How do I update my address?
+    - I just had a wedding and I want to take my spouses name.
+    - I would like to change my adress
+    - I need to modify my details.
+    - how to change name on account
+    - I moved to a new city and need to change my address
+    - Why can't I edit my personal details?
+    - Is it possible to change my address?
+    - I have a new phone number and need to edit my contact information.
+    - Where can I modify my details?
+    - I want to change my account details.
+    - Where do I go to change my account details?
+    - How would I change my details?
+    - Since I just got married I need to change my name.
+    - I am looking to change my adress.
+    - How do I edit my details?
+    - How do I edit the personal details on my account?
+    - Where can I edit personal details?
+    - I got married and need to change my name.
+    - I moved and would like to change my address.
+    - I need to change my contact information.
+    - details need to be modified
+    - where can I change my address?
+    - How can I update my details since I moved?
+    - I moved, can I edit my personal details?
+    - Tell me how to change my details.
+    - after i got married i need to change my name
+    - I got a new address and need to change my information.
+    - I just moved. How do I give you my new address?
+    - I'd like to make some changes to my personal information.
+    - I need to change my address in the personal details.
+    - How do I edit my personal details?
+    - How do I change my details?
+    - I moved and need to change my personal information.
+    - I need to update my phone number.
+    - Can I change my address?
+    - Editing my personal details
+    - I need to change my address
+    - should i contact customer support if i can't edit details
+    - Not living in same place, need to change details
+    - Please tell me where I can update my details since I moved.
+    - Need to report a change of address.
+    - Where do I go to edit my personal details on my account?
+    - How can I change my name because I just got married?
+    - is there a way to change name?
+    - How do I modify my details?
+    - How can I edit my personal details in the app?
+    - How do I change my name after marriage
+    - Can someone assist me with updating my account details with changing my last name?
+    - My billing address changed and I need to update my information.
+    - I need to update my address.
+    - I am here to change my adress.
+    - Can you walk me through how I can edit some of my personal information?
+    - Changed details is essential, what steps do I take to do so?
+    - I just got married and need to change my name on the account
+    - My address is incorrect on my file.
+    - I got a new address and need to change my old one.
+    - How can I change my information?
+    - Where do I go to update details?
+    - I have a new email.
+    - my identity hasn't been verified and i can't edit my details, what's next
+    - How would I be able to make changes to my personal details?
+    - I would like to change my personal details.
+    - I need to change my home address.
+    - Can I update my details?
+    - How to modify my details.
+    - Am I able to modify my account details?
+    - I need to change details about my personal account.
+    - need my details changed
+    - Can I change my details because I moved?
+    - I need to change my phone number.
+    - Can I edit my personal details?
+    - I've just moved and I need to change my details
+    - Where can I find how to change my name?
+    - I moved and need to change my address.
+    - How can I change my name in my profile?
+    - Change of location, need to change details
+    - How do I go about changing my address?
+    - Since I got married, I need to change my name.
+    - I would like to edit my personal information .
+    - Please tell me how to edit my personal details.
+    - how do i get into my account and edit my details
+    - I need to change my name, since i just got married
+    - I need to change my personal details in my account.
+    - I need to update my demographics.
+    - How do I change my account details?
+    - How can I change my address?
+    - My address needs to be changed.
+    - I am interested in changing my personal details.
+    - How can I change to my married name?
+    - I must change my address.
+    - How to edit personal details?
+    - I need to change my last name on my account because I just got married.
+    - How do I change my address ?
+    - I've just got married and want to change my name.
+    - How do I change the details in my account?
+    - went somewhere else, need to change details
+    - My address details have changed and I want to update them
+    - How do I change my last name?
+    - I just got married and I need to change my name
+    - What should I do after I've moved and need to update my personal details?
+    - I would like to change my address.
+    - I need to change my data.
 
-- intent: bot_challenge
+- intent: identity_verification
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - What do you need for the identity verification
+    - How and where can I find the identity checks?
+    - Why do I need to verify my identity?
+    - what documentation do I need for the identity check?
+    - What do you require for identity verification?
+    - How do I verify my identity online
+    - What can I use to verify my identity?
+    - Why is my identification required?
+    - What do I need in regards to identification?
+    - What documents do I need to get together to verify my identity?
+    - which identity details are required
+    - Do you need my birthdate?
+    - I am afraid to give you all my identify details.
+    - Do i have to verify who I am?
+    - How can I prove I am me?
+    - What are acceptable documents to prove my identity?
+    - Why is identity verification required?
+    - What do I need to do to perform identity checks?
+    - What am I going to need in order to verify my identity?
+    - Why do you require identification documents
+    - How do I validate my identity.
+    - Why do you need me to verify who I am?
+    - How do I go through the identity checks?
+    - Why do you need to know so much about me for my account?
+    - Why do you need to perform identity verification?
+    - Why is there an identity check?
+    - why and how soon do I have to have proof of identity to you?
+    - What needs to be provided for identity verification?
+    - If I'm getting my identity verified, what all do I need?
+    - How do I verify my ID?
+    - How can you assist on verifying my identity?
+    - For the identity check, what kind of documents do I need to have?
+    - What do I have to do to prove my identity?
+    - DO you know the reason for the identity check?
+    - I was told to verify my identity, how do I do that?
+    - What's the reason for needing to verify my identity?
+    - Please tell me the steps to verify my identity.
+    - How do I perform identity checks?
+    - Can I verify my identity?
+    - How do you check my identity?
+    - Why do you have the identity check
+    - What forms of ID should I use for verification?
+    - What forms of ID work for verification?
+    - For the identity verification, what do you need?
+    - Do I need any kind of proof for the identity check?
+    - What documents do I need for the identity check?
+    - Why does it matter that I prove my identity?
+    - Why is there a verification to identity
+    - What do you require for identification verification?
+    - Which documents do I need for this identity check?
+    - What is the function of the identity check
+    - What works for identity verification?
+    - What do I need for the identity check?
+    - Am I supposed to verify my identity?
+    - Why is the identity check involved?
+    - What do I need for the verification check?
+    - how do I speed up identity verification?
+    - i need to proof my identity to you why and how?
+    - I'm trying to verify my identity but can't figure out how, what do I do?
+    - What are the steps for the identity checks?
+    - Why do you need me to do an identity check?
+    - How do I fill out the identity check?
+    - How do I go about verifying my identity?
+    - How do I complete the ID check?
+    - What is needed for identity verification?
+    - I keep being asked to verify my identity. Is this normal?
+    - What is needed for the identity verification?
+    - Why is it important to verify my identity?
+    - Is there anyway to bypass identity verification?
+    - What is the identity check for?
+    - Why do I have to give you my drivers license
+    - How does identity check work?
+    - What is the purpose for verifying my identity?
+    - Why is verification for my identity needed?
+    - What are the steps to verify identity?
+    - What documents do you need to verify my identity?
+    - Why do you have an identity check?
+    - Tell me what the steps for the identity checks are
+    - Can you explain more about why should I verify my identity?
+    - Why on earth do you need so much personal id info from me?
+    - Why is it important to verify my identity?
+    - Must I verify my identity?
+    - How recent do my documents need to be for verification?
+    - What documents are required for proof of identity?
+    - What do you require to verify someone's identity?
+    - How long does it take to prove my identity?
+    - why do I have to show my ID
+    - Can you tell me what i need for the identity check?
+    - I'm not sure what I need to verify my identity.
+    - What do I use to verify my identity?
+    - What is the identity verification process?
+    - what documents do i need to verify who i am
+    - Why does my identity need to be verified?
+    - Why does my identity need verification?
+    - What ID do I need to verify my identity?
+    - Can you tell me what I need to do for the identity check process?
+    - Do you need to know my first and last name?
+    - Why do you guys need to verify my identity?
+    - Why do you need so much information about my identity?
+    - can i verify my identity i the app

@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+- intent: account_blocked
+  examples: |
+    - why in the world am i locked out of my bank account
+    - I can't access my account
+    - do you know why my account is blocked
+    - Hi, my account has been suspended and me to be restored please
+    - Hi, I'm having trouble accessing my account. It says its been blocked. What can i do?
+    - hello, i’m trying to restore my suspended account
+    - why am i unable to access my bank account
+    - what reason could the bank have had for blocking my account
+    - why is my bank account stopping all transactions from going through
+    - what caused a freeze to be put on my bank account
+    - Why Is there a block on my account
+    - Why Is my bank account frozen
+    - Hello I am unable to use my account, it's suspended for some reason
+    - explain me why there is a hold on all my accounts?
+    - what caused a block on my savings account?

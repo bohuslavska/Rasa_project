@@ -1,0 +1,18 @@
+version: "3.1"
+
+nlu:
+- intent: freeze_account
+  examples: |
+    - freeze my bank account
+    - i would like you to put a stop on my bank account
+    - place a stop on my bank account
+    - put on hold my account
+    - can you put a block on my visa account right away
+    - stop all payments to my bank account
+    - freeze my account I noticed suspicious activity
+    - stop my account activity
+    - dont allow any action on my account
+    - my bank account must be frozen immediately
+    - put a hold on my bank of america account please
+    - lock my account for now
+    - i want my account frozen

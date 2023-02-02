@@ -1,0 +1,22 @@
+version: "3.1"
+
+nlu:
+- intent: identity_verification
+  examples: |
+    - How do I verify my identity?
+    - What do I need for the identity verification?
+    - What documents do I need to validate my identity?
+    - how to complete the identity checks process.
+    - How do I prove I am who I am?
+    - Hi! What documents can I use to verify my identity?
+    - what steps do you take to check identity
+    - Can I get information on the identity checks?
+    - What proof of identification is needed?
+    - Help me verify my identification.
+    - What is identity check?
+    - Explain me why you need all this information about me
+    - what are the reasons I have to proof my identity to you?
+    - Why are all my identity details required
+    - My identity can't be verified.
+    - I am having some difficulty verifying my id.
+    - I'm unable to verify my identity

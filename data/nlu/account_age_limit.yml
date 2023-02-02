@@ -1,0 +1,16 @@
+version: "3.1"
+
+nlu:
+- intent: account_age_limit
+  examples: |
+    - I want to open an account for my children
+    - Can I make an account for my kids?
+    - Can my daughter make an account?
+    - If I want my son to have his own account is that possible?
+    - Is there an age limit for opening an account?
+    - How old do you need to be to use the banks services?
+    - What is minimum age for an account?
+    - What are the age requirements for service?
+    - Is there a possibility to open an account for my sons and daughters?
+    - Do you offer account's for minors?
+    - I am 14 can I open savings account at your bank? 
