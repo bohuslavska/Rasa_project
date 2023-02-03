@@ -1,0 +1,20 @@
+version: "3.1"
+
+nlu:
+- intent: card_activate
+  examples: |
+    - Can someone assist me with activating my card?
+    - I just got my new card, how do I activate it?
+    - I would like to activate my card.
+    - will you be able to activate my card
+    - I need assistance activating my card?
+    - What is needed to activate my card?
+    - I want to start using my card, how do I activate it?
+    - What do I need for activation of my card?
+    - I am unable to activate my card, it won't let me.
+    - How can I activate my new card?
+    - My card is not able to be activated how do I get it to work?
+    - What is the process for activating a new card.
+    - What is the process for activating my new card?
+    - What are the steps that I need to take to activate a new card?
+    - Do you know the process how to activate my card?

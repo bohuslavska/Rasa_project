@@ -8,6 +8,11 @@ intents:
   - freeze_account
   - account_edit_personal_details
   - identity_verification
+  - card_delivery_status
+  - card_pin_reset
+  - card_not_working
+  - card_activate
+  - order_new_card
 
 
 # responses:

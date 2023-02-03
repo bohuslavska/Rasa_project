@@ -1,0 +1,16 @@
+version: "3.1"
+
+nlu:
+- intent: card_pin_reset
+  examples: |
+    - My card needs to be activated.
+    - Can I get some help activating my new card?
+    - I want to activate my new card.
+    - How do I turn on my new card?
+    - I need to activate my card.
+    - My card needs to be activated asap
+    - I need to activate my card, how is that done?
+    - What are the steps that I need to take to activate a new card?
+    - Do I have to go somewhere to activate my card?
+    - What steps do I have to go through in order to activate my new card?
+    - My new card has arrived, what's the activation procedure?

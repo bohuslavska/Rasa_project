@@ -1,0 +1,14 @@
+version: "3.1"
+
+nlu:
+- intent: card_delivery_status
+  examples: |
+    - When did you send me my new card?
+    - It's been a week since I ordered my card and it's not here. Please help?
+    - Is there a tracking number for the card you sent me?
+    - I'm still waiting for my new card.
+    - What can I do to track the card you sent me?
+    - 2 weeks ago I ordered my new card. It isn't here. What should I do?
+    - My card was supposed to arrive, but hasn't?
+    - Is there a way to track my card?
+    - What do I need to do to get my new card which I have requested 2 weeks ago?

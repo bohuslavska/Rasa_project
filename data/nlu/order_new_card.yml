@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: order_new_card
+  examples: |
+    - I need a new card to replace an expired one. Will it cost anything, and how soon?
+    - Does it cost much or take long to get a new card? Mine is about to expire.
+    - If I am in China, can I still order a new card and if so, how?
+    - The date my card expires is coming up
+    - My card will expire soon, do I need to order a new one?
+    - Where can I order a card when I am in China?
+    - Can I wait for you to send me a new card when mine's about to expire?
+    - My card is about to expire. How do I order another?
+    - My card expires soon, will you send me one automatically?
+    - Can I get a new card in China?
