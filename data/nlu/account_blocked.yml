@@ -1,5 +1,6 @@
 version: "3.1"
-
+# try merging this intent with freeze_account since the overlap is strong. Make sure you keep the training set tight though.
+# You might want to first delete one of these conflicting intents, then only add training data for patterns that do not match correctly to remaining intent yet. This way you can avoid overfitting.
 nlu:
 - intent: account_blocked
   examples: |
