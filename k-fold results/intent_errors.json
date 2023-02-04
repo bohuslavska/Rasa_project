@@ -1,0 +1,202 @@
+[
+  {
+    "text": "How old do you need to be to use the banks services?",
+    "intent": "account_age_limit",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.9994154572486877
+    }
+  },
+  {
+    "text": "why is my bank account stopping all transactions from going through",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9874808192253113
+    }
+  },
+  {
+    "text": "Why Is my bank account frozen",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9990555047988892
+    }
+  },
+  {
+    "text": "I need to change a phone number linked to my current account",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.773804783821106
+    }
+  },
+  {
+    "text": "I would like to terminate my account immediately",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9656165242195129
+    }
+  },
+  {
+    "text": "Explain me how to end my account I don't need it anymore",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.9929523468017578
+    }
+  },
+  {
+    "text": "How do I prove I am who I am?",
+    "intent": "identity_verification",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.48984968662261963
+    }
+  },
+  {
+    "text": "If I want my son to have his own account is that possible?",
+    "intent": "account_age_limit",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.9886983036994934
+    }
+  },
+  {
+    "text": "I've just been married and need to update my name",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "card_activate",
+      "confidence": 0.7774118781089783
+    }
+  },
+  {
+    "text": "i want my account frozen",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.8871415853500366
+    }
+  },
+  {
+    "text": "I am 14 can I open savings account at your bank?",
+    "intent": "account_age_limit",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.666721522808075
+    }
+  },
+  {
+    "text": "what caused a freeze to be put on my bank account",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.9989722967147827
+    }
+  },
+  {
+    "text": "can you help me with updating my personal details",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.6323531866073608
+    }
+  },
+  {
+    "text": "Can you please disable my current account.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "freeze_account",
+      "confidence": 0.6316386461257935
+    }
+  },
+  {
+    "text": "my bank account must be frozen immediately",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "cancel_account",
+      "confidence": 0.9072478413581848
+    }
+  },
+  {
+    "text": "explain me why there is a hold on all my accounts?",
+    "intent": "account_blocked",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.7080482244491577
+    }
+  },
+  {
+    "text": "Where can I modify my information?",
+    "intent": "account_edit_personal_details",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.8231285214424133
+    }
+  },
+  {
+    "text": "I want to shut down my account as soon as possible.",
+    "intent": "cancel_account",
+    "intent_prediction": {
+      "name": "account_age_limit",
+      "confidence": 0.9907646179199219
+    }
+  },
+  {
+    "text": "When did you send me my new card?",
+    "intent": "card_delivery_status",
+    "intent_prediction": {
+      "name": "order_new_card",
+      "confidence": 0.43891221284866333
+    }
+  },
+  {
+    "text": "I'm still waiting for my new card.",
+    "intent": "card_delivery_status",
+    "intent_prediction": {
+      "name": "card_activate",
+      "confidence": 0.6190145015716553
+    }
+  },
+  {
+    "text": "freeze my bank account",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.999937891960144
+    }
+  },
+  {
+    "text": "freeze my account I noticed suspicious activity",
+    "intent": "freeze_account",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.9987798929214478
+    }
+  },
+  {
+    "text": "What are the age requirements for service?",
+    "intent": "account_age_limit",
+    "intent_prediction": {
+      "name": "identity_verification",
+      "confidence": 0.5492708086967468
+    }
+  },
+  {
+    "text": "It's been a week since I ordered my card and it's not here. Please help?",
+    "intent": "card_delivery_status",
+    "intent_prediction": {
+      "name": "order_new_card",
+      "confidence": 0.6882175803184509
+    }
+  },
+  {
+    "text": "Explain me why you need all this information about me",
+    "intent": "identity_verification",
+    "intent_prediction": {
+      "name": "account_blocked",
+      "confidence": 0.6163979172706604
+    }
+  }
+]

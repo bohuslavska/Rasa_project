@@ -1,0 +1,108 @@
+{
+  // Your cross-validation looks good, it can improve once you merge account_blocked into freeze_account.
+  // You might want to add more support for intents having recall below 0.75-0.85 in cross-validation.
+  "account_blocked": {
+    "precision": 0.6470588235294118,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.6875,
+    "support": 15,
+    "confused_with": {
+      "freeze_account": 3,
+      "identity_verification": 1
+    }
+  },
+  "cancel_account": {
+    "precision": 0.6153846153846154,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.64,
+    "support": 12,
+    "confused_with": {
+      "freeze_account": 2,
+      "account_blocked": 1
+    }
+  },
+  "account_login_password": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "card_delivery_status": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 9,
+    "confused_with": {
+      "order_new_card": 2,
+      "card_activate": 1
+    }
+  },
+  "identity_verification": {
+    "precision": 0.7894736842105263,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.8333333333333333,
+    "support": 17,
+    "confused_with": {
+      "cancel_account": 1,
+      "account_blocked": 1
+    }
+  },
+  "freeze_account": {
+    "precision": 0.6428571428571429,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.6666666666666666,
+    "support": 13,
+    "confused_with": {
+      "account_blocked": 3,
+      "cancel_account": 1
+    }
+  },
+  "card_activate": {
+    "precision": 0.8823529411764706,
+    "recall": 1.0,
+    "f1-score": 0.9375,
+    "support": 15,
+    "confused_with": {}
+  },
+  "account_age_limit": {
+    "precision": 0.875,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7368421052631579,
+    "support": 11,
+    "confused_with": {
+      "cancel_account": 2,
+      "identity_verification": 1
+    }
+  },
+  "order_new_card": {
+    "precision": 0.8333333333333334,
+    "recall": 1.0,
+    "f1-score": 0.9090909090909091,
+    "support": 10,
+    "confused_with": {}
+  },
+  "account_edit_personal_details": {
+    "precision": 1.0,
+    "recall": 0.6,
+    "f1-score": 0.7499999999999999,
+    "support": 10,
+    "confused_with": {
+      "identity_verification": 2,
+      "card_activate": 1
+    }
+  },
+  "accuracy": 0.7950819672131147,
+  "macro avg": {
+    "precision": 0.8285460540491499,
+    "recall": 0.7877690936514465,
+    "f1-score": 0.7960933014354068,
+    "support": 122
+  },
+  "weighted avg": {
+    "precision": 0.811986235059498,
+    "recall": 0.7950819672131147,
+    "f1-score": 0.7933156195257144,
+    "support": 122
+  }
+}
