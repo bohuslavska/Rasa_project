@@ -1,5 +1,9 @@
 version: "3.1"
-
+# Good work on proper nouns and verb forms variance!
+# I recommend including shorter simple keyword phrases as well as you expand the nlu architecure.
+# some synonymous phrases related to "opening account" could be considered to be added if your data set is too small to rely on it fully
+# use nltk libraries or any other tools available that allow to explore synonyms and similarity to make sure you made better coverage of SVO
+# consider adding a 1-2 more phrases to support existing unique patterns
 nlu:
 - intent: account_age_limit
   examples: |
