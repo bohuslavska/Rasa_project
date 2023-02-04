@@ -1,25 +1,26 @@
-version: "3.1"
+# Comment out duplicate of activate card
+#version: "3.1"
 
-nlu:
-- intent: card_not_working
-  examples: |
-    - My card needs to be activated.
-    - Can I get some help activating my new card?
-    - I want to activate my new card.
-    - How do I turn on my new card?
-    - I need to activate my card.
-    - My card needs to be activated asap
-    - I need to activate my card, how is that done?
-    - What are the steps that I need to take to activate a new card?
-    - Do I have to go somewhere to activate my card?
-    - What steps do I have to go through in order to activate my new card?
-    - My new card has arrived, what's the activation procedure?
-    - How do I fix a broken card?
-    - I think my card is broke it's not working anymore
-    - What should I do if my card doesn't work?
-    - Why can't I use my card?
-    - My card won't work at all for anything.
-    - Why is my physical card not working?
-    - How do I get my card to work?
-    - I seem to be unable to make any transactions.
-    - My card won't work right now.
+# nlu:
+# - intent: card_not_working
+#   examples: |
+#     - My card needs to be activated.
+#     - Can I get some help activating my new card?
+#     - I want to activate my new card.
+#     - How do I turn on my new card?
+#     - I need to activate my card.
+#     - My card needs to be activated asap
+#     - I need to activate my card, how is that done?
+#     - What are the steps that I need to take to activate a new card?
+#     - Do I have to go somewhere to activate my card?
+#     - What steps do I have to go through in order to activate my new card?
+#     - My new card has arrived, what's the activation procedure?
+#     - How do I fix a broken card?
+#     - I think my card is broke it's not working anymore
+#     - What should I do if my card doesn't work?
+#     - Why can't I use my card?
+#     - My card won't work at all for anything.
+#     - Why is my physical card not working?
+#     - How do I get my card to work?
+#     - I seem to be unable to make any transactions.
+#     - My card won't work right now.
